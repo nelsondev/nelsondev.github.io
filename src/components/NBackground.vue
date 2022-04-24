@@ -45,7 +45,7 @@ export default Vue.extend({
     <v-container
     fluid
     class="pt-12 d-flex justify-center"
-    style="overflow: hidden !important;"
+    style="overflow: hidden !important; max-width: 100vw;"
     >
         <div>
             <div
