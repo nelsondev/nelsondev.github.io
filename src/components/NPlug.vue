@@ -44,32 +44,34 @@
                                     around to check a couple of them out in the future.
                                 </p>
                             </v-card-text>
-                            <v-card-actions class="px-4 d-flex flex-wrap">
+                            <v-card-actions class="px-4">
                                 <v-spacer></v-spacer>
-                                <v-btn
-                                color="primary"
-                                large
-                                text
-                                light
-                                class="px-5"
-                                href="https://nelsondev.itch.io"
-                                target="__blank"
-                                >
-                                    NelsonDev 
-                                    <v-icon class="ml-1">mdi-chevron-right</v-icon>
-                                </v-btn>
-                                <v-btn
-                                color="primary"
-                                large
-                                text
-                                light
-                                class="px-5"
-                                href="/hats/"
-                                target="__blank"
-                                >
-                                    Play 
-                                    <v-icon class="ml-1">mdi-chevron-right</v-icon>
-                                </v-btn>
+                                <div class="d-flex">
+                                    <v-btn
+                                    color="primary"
+                                    large
+                                    text
+                                    light
+                                    class="px-5"
+                                    href="https://nelsondev.itch.io"
+                                    target="__blank"
+                                    >
+                                        NelsonDev 
+                                        <v-icon class="ml-1">mdi-chevron-right</v-icon>
+                                    </v-btn>
+                                    <v-btn
+                                    color="primary"
+                                    large
+                                    text
+                                    light
+                                    class="px-5"
+                                    href="/hats/"
+                                    target="__blank"
+                                    >
+                                        Play 
+                                        <v-icon class="ml-1">mdi-chevron-right</v-icon>
+                                    </v-btn>
+                                </div>
                             </v-card-actions>
                         </v-card>
                     </v-col>
