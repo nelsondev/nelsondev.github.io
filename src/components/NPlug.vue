@@ -34,12 +34,16 @@
                                 Games, art, and music are some of my biggest passions.
                             </v-card-title>
                             <v-card-text>
-                                <p style="word-break: unset;">
+                                <p style="word-break: unset;" class="d-none d-md-block">
                                     My personal time consists of designing and piecing together the ultimate art form: video games.
                                     I join game jams, work on personal passion projects and sometimes just draw for fun. I try to
                                     be as active as possible in the best community online.
                                 </p>
-                                <p style="word-break: unset;">
+                                <p style="word-break: unset;" class="d-block d-md-none">
+                                    My personal time consists of designing and piecing together the ultimate art form: video games.
+                                    I join game jams, work on personal passion projects and sometimes just draw for fun.
+                                </p>
+                                <p style="word-break: unset;" class="d-none d-md-block">
                                     I've got a couple released video games, but there's a lot more on the way. Hopefully you stick
                                     around to check a couple of them out in the future.
                                 </p>
