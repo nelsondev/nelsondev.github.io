@@ -96,6 +96,7 @@ export default Vue.extend({
             top: 0; 
             z-index: -1; 
             transform: rotate(45deg);
+            overflow: hidden !important;
         "
         min-width="400px"
         min-height="400px"
@@ -108,6 +109,7 @@ export default Vue.extend({
             top: 30vh; 
             z-index: -1; 
             transform: rotate(45deg);
+            overflow: hidden !important;
         "
         min-width="300px"
         min-height="300px"
