@@ -100,7 +100,7 @@ export default Vue.extend({
         "
         min-width="400px"
         min-height="400px"
-        class="blue-grey lighten-4 rounded-xl"
+        class="blue-grey lighten-4 rounded-xl d-none d-md-block"
         ></v-img>
         <v-img
         style="
