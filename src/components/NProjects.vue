@@ -117,14 +117,15 @@ export default Vue.extend({
             <v-col 
             v-for="item of products"
             :key="JSON.stringify(item)"
-            cols="4"
+            cols="12"
+            md="4"
             >   
                 <v-hover
                 v-slot="{ hover }"
                 >
                     <div 
                     v-if="item.headliner" 
-                    class="mb-3 blue-grey--text d-flex align-center transparent"
+                    class="mb-3 blue-grey--text align-center transparent d-none d-md-flex"
                     >
                             <v-icon 
                             color="blue-grey" 
