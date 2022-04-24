@@ -57,6 +57,7 @@ html * {
 
 html {
     scroll-behavior: smooth;
+    max-width: 100vw;
 }
 
 .font {

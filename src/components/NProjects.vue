@@ -78,7 +78,7 @@ export default Vue.extend({
 </script>
 
 <template>
-    <v-container style="position: relative;" class="pb-16">
+    <v-container style="position: relative; max-width: 100vw;" class="pb-16">
         <div class="d-flex align-center justify-center">
             <div class="mb-4 col-8 text-center">
                 <h1 class="text-h4">
