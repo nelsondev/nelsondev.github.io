@@ -14,7 +14,7 @@
         <span style="color: #D7D7D7; font-size: 8pt; letter-spacing: 12px;" class="pl-4">
             ⬤
         </span>
-        <!-- <v-spacer></v-spacer> -->
+        <v-spacer class="d-xs-flex d-sm-flex d-md-none"></v-spacer>
         <v-btn
         text
         color="accent"
@@ -34,7 +34,7 @@
         <v-btn
         text
         color="accent"
-        class="px-0 mx-1"
+        class="px-0 mx-1 d-none d-md-flex"
         href="#art"
         >
             Art
@@ -47,11 +47,11 @@
         >
             Hire
         </v-btn>
-        <v-spacer></v-spacer>
+        <v-spacer class="d-none d-md-flex"></v-spacer>
         <v-btn
         icon
         large
-        class="mx-1"
+        class="mx-1 d-none d-md-flex"
         color="primary"
         href="https://www.linkedin.com/in/nelsontron/"
         target="__blank"
@@ -61,7 +61,7 @@
         <v-btn
         icon
         large
-        class="mx-1"
+        class="mx-1 d-none d-md-flex"
         color="primary darken-2"
         href="https://github.com/nelsondev"
         target="__blank"
@@ -71,7 +71,7 @@
         <v-btn
         icon
         large
-        class="mx-1"
+        class="mx-1 d-none d-md-flex"
         color="primary darken-4"
         href="https://nelsontron.art"
         target="__blank"
