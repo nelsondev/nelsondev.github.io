@@ -6,7 +6,7 @@
                 color="transparent"
                 flat
                 >
-                    <v-card-title class="text-h5">
+                    <v-card-title class="text-h5" style="word-break: unset;">
                         Let's build something together, I'd love to see what we can come up with.
                     </v-card-title>
                     <v-card-title style="word-break: unset;">

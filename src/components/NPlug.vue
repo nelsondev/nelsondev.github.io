@@ -30,16 +30,16 @@
                                 style="filter: invert(100%)"
                                 ></v-img>
                             </v-card-title>
-                            <v-card-title>
+                            <v-card-title style="word-break: unset;">
                                 Games, art, and music are some of my biggest passions.
                             </v-card-title>
                             <v-card-text>
-                                <p>
+                                <p style="word-break: unset;">
                                     My personal time consists of designing and piecing together the ultimate art form: video games.
                                     I join game jams, work on personal passion projects and sometimes just draw for fun. I try to
                                     be as active as possible in the best community online.
                                 </p>
-                                <p>
+                                <p style="word-break: unset;">
                                     I've got a couple released video games, but there's a lot more on the way. Hopefully you stick
                                     around to check a couple of them out in the future.
                                 </p>
