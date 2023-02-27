@@ -1,74 +1,46 @@
-<script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({
-    components: {
-        NMenuBar: () => import('@/components/NMenuBar.vue'),
-        NBackground: () => import('@/components/NBackground.vue'),
-        NLanding: () => import('@/components/NLanding.vue'),
-        NShop: () => import('@/components/NShop.vue'),
-        NFooter: () => import('@/components/NFooter.vue'),
-        NArt: () => import('@/components/NArt.vue'),
-        NProjects: () => import('@/components/NProjects.vue'),
-        NPlug: () => import('@/components/NPlug.vue'),
-        NContact: () => import('@/components/NContact.vue')
-    },
-
-    data() {
-        return {
-            step: 1
-        }
-    }
-})
-</script>
-
 <template>
-    <v-app>
-        <v-main>
-            <v-app-bar 
-            app 
-            flat
-            absolute
-            dense
-            style="top: 30px"
-            color="primary"
-            dark
-            >
-                <v-spacer></v-spacer>
-                <span>This website is still under construction.</span>
-                <v-spacer></v-spacer>
-            </v-app-bar>
-            <n-menu-bar></n-menu-bar>
-            <n-background></n-background>
-            <n-landing></n-landing>
-            <n-projects id="work"></n-projects>
-            <n-art></n-art>
-            <n-plug id="art"></n-plug>
-            <n-contact id="contact"></n-contact>
-            <!-- <n-shop id="shop"></n-shop> -->
-            <n-footer></n-footer>    
-        </v-main>
-    </v-app>
+	<v-app>
+		<v-main>
+			<v-toolbar
+			elevation="0"
+			color="transparent"
+			style="position: fixed; z-index: 99"
+			>
+				<!-- <v-app-bar-nav-icon rounded="0" color="primary"></v-app-bar-nav-icon> -->
+				<v-toolbar-items>
+					<v-btn color="" class="font-brand font-weight-bold" size="x-large">Logo</v-btn>
+				</v-toolbar-items>
+				<v-spacer></v-spacer>
+				<v-toolbar-items>
+					<v-btn color="" class="font-brand font-weight-bold" size="x-large">Portfolio</v-btn>
+					<v-btn color="" class="font-brand font-weight-bold" size="x-large">Pricing</v-btn>
+					<v-btn color="" class="font-brand font-weight-bold" size="x-large">Contact</v-btn>
+				</v-toolbar-items>
+			</v-toolbar>
+			<router-view></router-view>
+		</v-main>
+	</v-app>
 </template>
 
+<script setup>
+</script>
+
 <style>
-html * {
-    font-family: "Nunito", sans-serif !important;
+.font-slab {
+	font-family: 'Roboto Slab', serif !important;
 }
-
-html {
-    scroll-behavior: smooth;
-    max-width: 100vw;
+.font-brand {
+	font-family: 'Nunito', sans-serif;
 }
-
-.font {
-    font-family: "Nunito", sans-serif !important;
+.font-serif {
+	font-family: 'Arbutus Slab', serif;
 }
-
-.theme--light.v-application {
-    background: transparent !important;
+@keyframes blinker {
+	50% {
+		opacity: 0;
+	}
 }
-
-.v-stepper__header {
-    box-shadow: none;
+.animation-blink {
+  animation: blinker 0.5s steps(1) infinite;
 }
 </style>
