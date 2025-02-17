@@ -30,7 +30,7 @@ function send() {
 </style>
 
 <template>
-    <v-dialog persistent :model-value="smAndDown" fullscreen>
+    <v-dialog persistent :model-value="smAndDown" fullscreen scrollable>
         <v-card color="black">
             <v-alert tile color="pink" variant="tonal" title="Please note" :icon="BellAlertIcon" text="The mobile version of this website is currently under construction."></v-alert>
             <v-card-title>
