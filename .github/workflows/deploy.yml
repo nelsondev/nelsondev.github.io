@@ -1,0 +1,17 @@
+name: Build and Deploy
+on: [ push ]
+permissions:
+  contents: read
+  id-token: write
+  pages: write
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.3.1
+      - uses: actions/setup-node@v4.1.0
+      - run: npm ci && npm run build && cp dist/index.html dist/404.html
+      - uses: actions/upload-pages-artifact@v3.0.1
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4.0.5
