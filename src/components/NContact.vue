@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import { BellAlertIcon } from '@heroicons/vue/24/outline'
+
 const mail = ref({
     name: null,
     body: null
