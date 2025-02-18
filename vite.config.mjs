@@ -34,10 +34,6 @@ export default defineConfig({
       },
     }),
   ],
-  build: {
-    cssMinify: true,
-    
-  },
   define: { 'process.env': {} },
   resolve: {
     alias: {
